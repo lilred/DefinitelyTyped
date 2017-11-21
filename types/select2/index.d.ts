@@ -72,7 +72,7 @@ interface Select2Options {
     tokenSeparators?: string[];
     query?: (options: Select2QueryOptions) => void;
     ajax?: Select2AjaxOptions;
-    data?: any;
+    data?: IdTextPair[];
     tags?: any;
     createTag?: any;
     containerCss?: any;
